@@ -36,11 +36,6 @@ variable "cluster_name" {
   type        = string
 }
 
-variable "cluster_name" {
-  description = "The name of the EKS cluster"
-  type        = string
-  
-}
 
 variable "cluster_version" {
   description = "The desired Kubernetes version for the EKS cluster"
