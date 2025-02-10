@@ -10,10 +10,10 @@ variable "dynamodb_table_name" {
   description = "The name of the DynamoDB table to store the Terraform state lock."
 }
 
-variable "vpc_id" {
-  description = "The ID of the VPC"
-  type        = string
-}
+# variable "vpc_id" {
+#   description = "The ID of the VPC"
+#   type        = string
+# }
 variable "vpc_cidr" {
   description = "The CIDR block for the VPC"
   type        = string
