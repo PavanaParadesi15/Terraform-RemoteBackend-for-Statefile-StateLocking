@@ -1,5 +1,5 @@
 region = "ap-south-1"
-bucket_name = "terraform-eks-state-bucket-pavana"
-dynamodb_table_name = "terraform-eks-state-locks"
+// bucket_name = "terraform-eks-state-bucket-pavana"
+// dynamodb_table_name = "terraform-eks-state-locks"
 cluster_name = "my-eks-cluster"
 cluster_version = "1.30"

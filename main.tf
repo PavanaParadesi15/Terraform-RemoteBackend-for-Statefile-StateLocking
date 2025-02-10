@@ -13,10 +13,10 @@ terraform {
 
 // Backend configuration
   backend "s3" {
-    bucket         = var.bucket_name
+    bucket         = "terraform-eks-state-bucket-pavana"
     key            = "terraform.tfstate"
-    region         = var.region
-    dynamodb_table = var.dynamodb_table_name
+    region         = "ap-south-1"
+    dynamodb_table = "terraform-eks-state-locks"
     encrypt        = true
   }
 }
