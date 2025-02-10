@@ -49,6 +49,7 @@ resource "aws_s3_bucket_server_side_encryption_configuration" "terraform_state" 
 // The hash_key is "LockID" and the type is "S" which means string
 // The billing_mode is "PAY_PER_REQUEST"
 // The attribute block is used to define the attribute of the DynamoDB table
+
 resource "aws_dynamodb_table" "terraform_locks" {
   name         = var.dynamodb_table_name
   billing_mode = "PAY_PER_REQUEST"
